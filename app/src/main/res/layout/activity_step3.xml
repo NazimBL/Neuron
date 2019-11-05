@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="40dp"
+
+    tools:context="com.e_monsite.nazim_app.memorytest.step3">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="score"
+
+        android:textSize="20dp"
+        android:gravity="right"
+        android:id="@+id/score"
+        />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+
+    >
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/img1"
+
+
+    />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+
+        android:id="@+id/img2"
+
+        />
+ <ImageView
+     android:layout_width="wrap_content"
+     android:id="@+id/img3"
+     android:layout_marginLeft="5dp"
+
+     android:layout_height="wrap_content"
+     />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/img4"
+        android:layout_marginLeft="5dp"
+
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/img5"
+        android:layout_marginLeft="5dp"
+
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/img6"
+        android:layout_marginLeft="5dp"
+
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/img7"
+        android:layout_marginLeft="5dp"
+
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/img8"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="3"
+
+        android:textColor="#000001"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/count"
+        />
+
+<GridView
+    android:layout_marginTop="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  android:layout_gravity="center_horizontal"
+    android:numColumns="4"
+    android:stretchMode="spacingWidthUniform"
+    android:gravity="center"
+    android:id="@+id/gridview">
+
+    </GridView>
+</LinearLayout>

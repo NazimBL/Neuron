@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:orientation="vertical"
+
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:background="@drawable/index"
+    tools:context="com.e_monsite.nazim_app.memorytest.numericalMemory">
+
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="score"
+         android:layout_marginRight="20dp"
+        android:textColor="#000001"
+        android:textSize="20dp"
+        android:gravity="right"
+        android:id="@+id/score"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="4 7 2"
+        android:layout_marginTop="10dp"
+        android:textColor="#000001"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/serie"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="3"
+
+        android:layout_marginTop="20dp"
+        android:textColor="#000001"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:id="@+id/count"
+        />
+   <EditText
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/edit"
+       android:layout_marginTop="30dp"
+       android:gravity="center"
+       android:hint="Tape the nums one by one"
+       android:inputType="number"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        style="@style/main_buttons"
+        android:typeface="serif"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/button"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="numbers will disappear after 3 seconds,you'll have to tape one serie after another (for 1,5,6 tape 1 ,click Next then repeat for 5 and 6)"
+        android:layout_marginTop="20dp"
+        android:textColor="#000001"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="40dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="20dp"
+    android:paddingTop="40dp"
+    android:background="@drawable/index"
+    android:orientation="vertical"
+    tools:context="com.e_monsite.nazim_app.memorytest.ScorePanel">
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <TextView
+        android:text="Briefing Time !"
+        android:textSize="40dp"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:textColor="#000001"
+        android:typeface="serif"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+        android:text="Step 1 : "
+        android:layout_width="fill_parent"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000001"
+        android:layout_height="wrap_content"
+        android:id="@+id/step1"
+        />
+    <TextView
+        android:text="Step 2 :"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000001"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/step2"
+        />
+    <TextView
+        android:text="Step 3 :"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000001"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/step3"
+        />
+    <TextView
+        android:text="Total Score : "
+        android:textSize="20dp"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="bottom"
+        android:textColor="#000001"
+        android:typeface="serif"
+        android:layout_height="wrap_content"
+        android:id="@+id/score"
+
+        />
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Profile"
+           android:id="@+id/profile"
+           android:background="@drawable/button"
+           android:typeface="serif"
+           android:textColor="#FFF"
+           android:textStyle="italic"
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+
+           />
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

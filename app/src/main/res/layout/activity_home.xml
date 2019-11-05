@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical"
+    android:paddingBottom="40dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="20dp"
+    android:paddingTop="40dp"
+    tools:context="com.e_monsite.nazim_app.memorytest.Home">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="score"
+        android:layout_marginRight="10dp"
+        android:textColor="#000001"
+        android:textSize="20dp"
+        android:gravity="right"
+        android:id="@+id/score"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="question"
+        android:layout_marginTop="20dp"
+        android:textColor="#000001"
+        android:textSize="20dp"
+        android:id="@+id/question"
+        />
+    <RadioGroup
+        android:layout_marginTop="40dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+
+            android:id="@+id/radio1"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="2"
+            android:id="@+id/radio2"
+            />
+
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+
+        android:layout_marginTop="20dp"
+        android:typeface="serif"
+        style="@style/main_buttons"
+        android:layout_gravity="center"
+        android:id="@+id/button"/>
+
+</LinearLayout>
